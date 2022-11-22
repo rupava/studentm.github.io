@@ -7,6 +7,10 @@ The student ID _sid_ is a foreign key to all the subjet tables.
 
 There is an option to print the list of students directly from the webpage on the _Student List_ page.
 
+Check this link out https://rupava.github.io/studentm.github.io/
+
+**Note:PHP files won't run and will simply be downloaded**
+
 ## Getting started
 * Install XAMPP and copy the project files to the _C:\xampp\htdocs_ folder assuming you've installed everything as default.
 * On your browser, open *localhost/phpmyadmin* and create a database with the name _crud_op_ and import the _crud_op.sql_ file to the newly created database.
