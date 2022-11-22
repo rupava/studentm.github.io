@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home | Student Logs</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+        <a class="navbar-brand" href="index.html">StudentLogs.com</a>
+        
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Add Student</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="marks.php">Add Marks</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='studentList.php'>Students</a>
+        </li>
+        </ul>
+        <br>
+        <form class="form-inline" method="post" action="/search.php">
+            <input class="form-control mr-sm-2 text-uppercase" id="sid" name="sid" type="text" placeholder="Search" required>
+            <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    </nav>
+        
+    <div class="p-5">
+      <div class="row p-3 ">
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=0" method>Engineering Mathematics - III</a>
+        </div>
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=1">Electronics Devices and Circuits - I</a>
+        </div>
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=2">Digital Logic Circuits</a>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=3">Electrical Networks Analysis and Synthesis</a>
+        </div>
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=4">Electronic Instruments and Measurements</a>
+        </div>
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=5">Electronics Devices and Circuits - I Lab</a>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=6">Digital Logic Circuits Lab</a>
+        </div>
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=7">Electronic Instruments and Measurements Lab</a>
+        </div>
+        <div class="col bg-dark text-white border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=8">Skill Base Lab: OOPM (C++ and JAVA)</a>
+        </div>
+        <div class="col bg-dark text-white  border border-secondary m-3 p-3">
+          <a class="nav-link text-center" href="course.php?course=9">Mini Project 1-A</a>
+        </div>
+      </div>
+    </div>
+    </body>
+
+
+</html>
